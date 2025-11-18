@@ -1,11 +1,9 @@
-# Nhập số tiền VNĐ từ bàn phím
-vnd = float(input("Nhập số tiền VNĐ: "))
-# Tỷ giá quy đổi
-ty_gia = 24500
-# Tính số tiền USD
-usd = vnd / ty_gia
-# Làm tròn đến 2 chữ số thập phân
-usd = round(usd, 2)
-# In kết quả
-print(f"Số tiền tương đương: {usd} USD")
-
+i = int(input("Nhập i: "))
+for n in range(2, i) :
+    nguyen_to = True
+    for i in range(2, n) :
+        if n % i == 0 :
+            nguyen_to = False
+            break
+    if nguyen_to :
+            print(n, end= "")
