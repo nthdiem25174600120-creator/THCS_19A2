@@ -1,0 +1,3 @@
+Đây là nội dung file nguồn.
+Nó sẽ được sao chép sang file đích.
+Bạn có thể thêm nhiều dòng khác tùy ý.
